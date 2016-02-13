@@ -136,7 +136,7 @@ nav {
   top: 0;
   width: 100%;
   height: 500px;
-  background-image: url(http://media.cmgdigital.com/shared/img/photos/2015/11/03/60/19/jwj-Pflugerville-Animal-Shelter-00260.jpg);
+  background-image: url(images/hero.jpg);
   background-size: 100%;
   background-position-y: 50%;
 }
@@ -168,7 +168,7 @@ nav {
 
 #stats {
   border-top: 2px solid #B0BEC5;
-  background-color: #ECEFF1;
+  background-color: #FFFFFF;
 }
 .help-content {
   padding: 20px;
