@@ -1,0 +1,14 @@
+{
+  "name": "save_our_shelter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brandon Dail <Kierkegaurd@gmail.com> (http://www.brandondail.me)",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}

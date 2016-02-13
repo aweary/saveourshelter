@@ -1,0 +1,181 @@
+body {
+  font-family: 'Arvo', serif !important;
+}
+
+iframe {
+  pointer-events: none !important;
+}
+
+p {
+  line-height: 40px;
+}
+
+td {
+  transition-duration: 0.25s;
+}
+
+tr {
+  transition-duration: 0.25s;
+}
+
+tr:hover {
+  background-color: #EEEEEE;
+}
+
+td:hover {
+  color: red;
+}
+
+img {
+  width: 100%;
+}
+
+h4 {
+  color: #263238 !important;
+  padding-top: 10px;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+b {
+  color: #F44336;
+}
+
+nav {
+  background-color: #263238 !important;
+  margin-bottom: 0 !important;
+}
+
+.photos {
+}
+
+.photos img {
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  max-width: 300px;
+  display: inline-block;
+  transition-duration: 0.25s;
+}
+
+.photos img:hover {
+  transform: scale(1.05);
+}
+
+.page-container {
+  margin-top: 50px;
+  position: relative;
+}
+
+.content {
+  margin: 0 auto;
+  padding: 50px;
+  max-width: 1200px;
+}
+
+.negative-stat-row {
+  background-color: #EF5350;
+  color: white;
+}
+
+.emphasis-row {
+  background-color: #CFD8DC;
+  font-weight: bold !important;
+}
+
+.negative-stat-row:hover {
+  background-color: #C62828;
+}
+
+.positive-stat-row {
+  background-color: #00E676;
+  color: #000000;
+}
+
+.positive-stat-row:hover {
+  background-color: #00C853;
+}
+
+
+.title {
+  font-size: 70px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  margin: 0;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-family: 'Karla', sans-serif !important;
+
+}
+
+.section-title {
+  font-size: 40px;
+  color: #212121;
+  font-family: 'Karla', sans-serif !important;
+  transition-duration: 0.25s;
+}
+
+.section-title:hover {
+  transform: scale(1.1);
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.hero {
+  position: relative;
+  top: 0;
+  width: 100%;
+  height: 500px;
+  background-image: url(http://media.cmgdigital.com/shared/img/photos/2015/11/03/60/19/jwj-Pflugerville-Animal-Shelter-00260.jpg);
+  background-size: 100%;
+  background-position-y: 50%;
+}
+
+.description {
+  font-size: 15px !important;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+.shelter-stats {
+  margin: 5px auto;
+  max-width: 1000px !important;
+}
+
+.email-list {
+  list-style: none;
+}
+
+#problem {
+
+}
+
+#help {
+  border-top: 2px solid #B0BEC5;
+  background-color: #F7F7F7;
+  color: #263238;
+}
+
+#stats {
+  border-top: 2px solid #B0BEC5;
+  background-color: #ECEFF1;
+}
+.help-content {
+  padding: 20px;
+  text-align: center;
+}
+
+#help p {
+  margin: 0 auto !important;
+  text-align: center;
+}
