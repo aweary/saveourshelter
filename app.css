@@ -156,6 +156,8 @@ nav {
   text-align: center;
   font-size: 16px;
   list-style: none;
+  display: inline;
+  margin: 0 auto;
 }
 
 #problem {
@@ -186,6 +188,7 @@ nav {
 @media screen and (max-width: 768px) {
   .hero {
     background-size: cover;
+    background-position-x: 50%;
   }
 
   .description {
