@@ -121,7 +121,13 @@ nav {
   transform: scale(1.1);
 }
 
+.vertical-center {
+  display: flex;
+  align-items: center;
+}
+
 .hero-overlay {
+  z-index: -1;
   position: absolute;
   top: 0;
   left: 0;
@@ -131,15 +137,21 @@ nav {
 }
 
 .hero {
+  z-index: 1;
   position: relative;
-  top: 0;
-  width: 100%;
   height: 500px;
+  text-align: center;
   background-image: url(images/hero.jpg);
   background-size: 100%;
   background-position-y: 50%;
 }
 
+.hero h1 {
+  text-transform: uppercase;
+  color: #FFFFFF !important;
+  font-family: 'Karla', sans-serif !important;
+
+}
 
 .description {
   font-size: 15px !important;
@@ -189,6 +201,12 @@ nav {
   .hero {
     background-size: cover;
     background-position-x: 50%;
+  }
+
+  .title {
+    display: block;
+    margin: 0 auto;
+    font-size: 40px;
   }
 
   .description {
