@@ -1,0 +1,30 @@
+$flat-button-background-color: #FFFFFF;
+
+.button {
+  &:focus {
+    outline: none;
+    animation-name: onButtonClick;
+    animation-duration: 0.25s;
+  }
+}
+
+.flat-button {
+  @extend .button;
+  background-color: $flat-button-background-color;
+  margin: 0.3em;
+  padding: 0.5em 0.75em;
+  border-radius: 10%;
+  transition-duration: 0.15s;
+  border: none;
+  font-size: 1.1em;
+
+  &:hover {
+    background-color: palette(Blue Grey, 50);
+    color: $primary-button-color;
+  }
+}
+
+.primary-button {
+  background-color: $primary-button-color;
+  color: $white;
+}

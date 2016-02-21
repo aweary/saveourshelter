@@ -1,0 +1,24 @@
+h1, h2, h3, h4, h5, p, a, li, button {
+  font-family: 'Fira Sans', sans-serif;
+}
+
+a {
+  color: inherit;
+}
+
+body {
+  background-color: palette(Blue Grey, 50);
+}
+
+
+.section {
+  max-width: 1200px;
+  padding: 2em;
+  margin: 0 auto;
+  font-size: 1.05em;
+  line-height: 28px;
+
+  h2 {
+    color: palette(Red, A400);
+  }
+}

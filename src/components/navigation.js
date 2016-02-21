@@ -1,14 +1,15 @@
 import React from 'react';
+import FlatButton from './buttons/flat-button';
+import palette from 'google-material-color';
 
 function Navigation() {
   return (
-    <div id="navbar" className="collapse navbar-collapse">
-      <ul className="nav navbar-nav">
-        <li><a href="#problem">Our Problem</a></li>
-        <li><a href="#stats">Stats</a></li>
-        <li><a href="#help">How to Help</a></li>
-        <li><a href="#photos">Photos</a></li>
-      </ul>
+    <div className='navigation'>
+      <a href='#problem'>
+      <FlatButton label='Our Problem'/>
+      </a>
+      <FlatButton label='Stats'/>
+      <FlatButton label='Photos'/>
     </div>
   );
 }
