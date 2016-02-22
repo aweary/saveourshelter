@@ -2,23 +2,52 @@ h1, h2, h3, h4, h5, p, a, li, button {
   font-family: 'Fira Sans', sans-serif;
 }
 
-a {
-  color: inherit;
-}
-
 body {
-  background-color: palette(Blue Grey, 50);
+  background-color: lighten(palette(Grey, 100), 10%);
 }
 
 
 .section {
-  max-width: 1200px;
+  position: relative;
+  z-index: 5;
   padding: 2em;
   margin: 0 auto;
-  font-size: 1.05em;
-  line-height: 28px;
+  font-size: 1.2em;
+  line-height: 35px;
 
   h2 {
-    color: palette(Red, A400);
+    position: relative;
+    padding-bottom: 0.75em;
+    color: $navigation-background-color;
+    text-transform: uppercase;
   }
+
+  .material-icons {
+    float: left;
+    font-size: 1.5em;
+    transition-duration: 0.25s;
+    &:hover {
+      transform: scale(1.1) rotate(360deg);
+    }
+  }
+
+  p {
+    padding-top: 0.75em;
+  }
+}
+
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.paw {
+  padding-bottom: 1em;
+}
+
+.emphasis {
+  font-size: 1.3em;
+  color: palette(Blue Grey, 700);
+  text-transform: uppercase;
+  font-family: 'Andada', serif;
 }

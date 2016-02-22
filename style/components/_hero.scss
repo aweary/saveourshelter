@@ -15,7 +15,7 @@
       top: 0;
       left: 0;
       background-color: white;
-      background: url('http://i.imgur.com/pwRtbUJ.jpg') no-repeat center center;
+      background: url('http://i.imgur.com/GFfEcxe.jpg') no-repeat center center;
       background-size: cover;
       will-change: transform; // creates a new paint layer
       z-index: -1;
@@ -39,7 +39,25 @@
   }
 
   h1 {
+    text-transform: uppercase;
+    animation-name: zoomIn;
+    animation-duration: 1s;
+    transition-duration: 0.25s;
+
+    &:hover {
+      color: palette(Blue Grey, 100);
+      transform: scale(1.05);
+    }
+  }
+
+  h1, h3 {
+    margin: 0.2em;
     color: $white;
   }
 
+  h3 {
+    font-family: 'Andada', serif;
+    font-size: 2em;
+    color: palette(Blue Grey, 300)
+  }
 }

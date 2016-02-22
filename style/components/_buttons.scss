@@ -1,19 +1,22 @@
-$flat-button-background-color: #FFFFFF;
 
 .button {
-  &:focus {
-    outline: none;
+  font-size: 1.2em;
+  &:hover {
     animation-name: onButtonClick;
     animation-duration: 0.25s;
+  }
+  &:focus {
+    outline: none;
   }
 }
 
 .flat-button {
   @extend .button;
-  background-color: $flat-button-background-color;
+  background-color: $primary-color;
+  color: $white;
   margin: 0.3em;
   padding: 0.5em 0.75em;
-  border-radius: 10%;
+  border-radius: 5%;
   transition-duration: 0.15s;
   border: none;
   font-size: 1.1em;
@@ -25,6 +28,14 @@ $flat-button-background-color: #FFFFFF;
 }
 
 .primary-button {
-  background-color: $primary-button-color;
-  color: $white;
+  border: 1px solid;
+  color: $primary-button-color;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: $primary-button-color;
+}
+
+.button-right-icon {
+  font-size: 1.1em;
+  margin-top: 0.25em;
+  padding-left: 0.5em;
 }

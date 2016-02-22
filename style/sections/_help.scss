@@ -1,0 +1,18 @@
+#help {
+  background-color: palette(Blue Grey, 50);
+  color: palette(Grey, 800);
+  h2 {
+    font-size: 3em;
+    text-align: left;
+    border-bottom: 5px solid palette(Blue Grey, 100);
+    color: palette(Indigo, 600);
+  }
+
+  .material-icons {
+    float: right;
+  }
+}
+
+.help-content {
+  text-align: center;
+}
