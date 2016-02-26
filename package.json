@@ -18,6 +18,7 @@
     "google-material-color": "^1.2.6",
     "react": "^0.14.7",
     "react-dom": "^0.14.7",
+    "react-image-gallery": "^0.5.9",
     "semantic-ui": "^2.1.8"
   },
   "devDependencies": {

@@ -1,4 +1,6 @@
 @import 'node_modules/google-material-color/dist/palette.scss';
+@import "node_modules/react-image-gallery/src/ImageGallery";
+
 @import 'variables';
 
 @import 'partials/normalize';
@@ -11,3 +13,5 @@
 
 @import 'sections/problem';
 @import 'sections/help';
+@import 'sections/stats';
+@import 'sections/photos';

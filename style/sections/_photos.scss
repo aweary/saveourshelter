@@ -1,14 +1,13 @@
-#help {
-  background-color: darken(#FFFFFF, 2%);
+#photos {
   color: palette(Grey, 800);
+  background-color: #FFFFFF;
   h2 {
     font-size: 3em;
     text-align: left;
-    border-bottom: 5px solid palette(Blue Grey, 100);
-    color: palette(Indigo, 600);
   }
 
   h3 {
+    text-align: right;
     margin-bottom: 1em;
   }
 
@@ -16,9 +15,5 @@
     display: inline-block;
     text-align: center;
   }
-}
-
-.help-content {
-  margin-top: 3em;
-  text-align: center;
+  padding-bottom: 10em;
 }

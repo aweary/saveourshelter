@@ -1,0 +1,47 @@
+#stats {
+  color: palette(Grey, 800);
+  h2 {
+    font-size: 3em;
+    text-align: right;
+    border-bottom: 5px solid palette(Blue Grey, 100);
+  }
+
+  h3 {
+    text-align: right;
+    margin-bottom: 1em;
+  }
+
+  .material-icons {
+    display: inline-block;
+    text-align: center;
+  }
+}
+
+.help-content {
+  margin-top: 3em;
+  text-align: center;
+}
+
+
+.negative-stat-row {
+  background-color: #EF5350;
+  color: white;
+}
+
+.emphasis-row {
+  background-color: #CFD8DC;
+  font-weight: bold !important;
+}
+
+.negative-stat-row:hover {
+  background-color: #C62828;
+}
+
+.positive-stat-row {
+  background-color: #00E676;
+  color: #000000;
+}
+
+.positive-stat-row:hover {
+  background-color: #00C853;
+}

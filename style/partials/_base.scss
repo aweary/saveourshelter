@@ -23,8 +23,12 @@ body {
   }
 
   .material-icons {
-    float: left;
-    font-size: 1.5em;
+    font-size: 4em;
+    margin: 0.25em;
+    background-color: palette(Blue Grey, 900);
+    color: palette(White);
+    border-radius: 100%;
+    padding: 0.25em;
     transition-duration: 0.25s;
     &:hover {
       transform: scale(1.1) rotate(360deg);
@@ -37,7 +41,7 @@ body {
 }
 
 .content {
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 

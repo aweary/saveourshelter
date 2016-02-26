@@ -20,15 +20,15 @@ class Navigation extends Component {
     return (
       <div className='navigation'>
         <NavItem
-          href='#problem'
-          active={this.state.active}
-          onClick={this.setActive}
-          label='Our Problem'/>
-        <NavItem
           href='#stats'
           active={this.state.active}
           onClick={this.setActive}
           label='Stats'/>
+        <NavItem
+          href='#help'
+          active={this.state.active}
+          onClick={this.setActive}
+          label='Help'/>
         <NavItem
           href='#photos'
           active={this.state.active}
