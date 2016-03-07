@@ -31,7 +31,7 @@ export default class ProblemSection extends Component {
 
           efficient and most expensive. Keeping the shelter open for intake would still require upgrades to
 
-          the facility, and t would still have operating costs and staff requirements.
+          the facility, and it would still have operating costs and staff requirements.
 
           The residents of Pflugerville need to have a say in whatever the ultimate decision is. The WILCO
 
@@ -61,7 +61,8 @@ export default class ProblemSection extends Component {
         </p>
         <hr/>
         <h3>Donations</h3>
-        <p>Donations can be sent to the address below. Checks can be made out to "The Friends of the Pflugerville Animal Shelter PAC"</p>
+        <p>Donations can be made via PayPal to  <strong>SavethePflugervilleshelter@gmail.com</strong></p>
+        <p>Donations can also be sent to the address below. Checks can be made out to "The Friends of the Pflugerville Animal Shelter PAC"</p>
           <address>
             <strong>The Friends of the Pflugerville Animal Shelter PAC</strong><br/>
             PO Box 2993 <br/>
